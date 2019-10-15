@@ -9,7 +9,7 @@ services:
       - db
       - redis
     volumes:
-      - ..:/app
+      - .:/app
     ports:
       - ${DOCKER_APP_PORT}:3000
     working_dir: /app

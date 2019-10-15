@@ -1,3 +1,4 @@
+require('dotenv').config();
 import express = require('express');
 import routes from './routes';
 
