@@ -5,7 +5,8 @@
   "repository": "git@github.com:fendy3002/node-api-typescript.git",
   "license": "MIT",
   "scripts": {
-    "test": "mocha  test/**/*.ts",
+    "dev": "nodemon",
+    "test": "mocha test/**/*.ts",
     "build": "tsc",
     "prepublish": "yarn build"
   },
@@ -16,6 +17,7 @@
     "@types/node": "^12.7.12",
     "mocha": "^6.2.1",
     "mochawesome": "^4.1.0",
+    "nodemon": "^1.19.3",
     "ts-node": "^8.4.1",
     "typescript": "^3.6.4"
   },
