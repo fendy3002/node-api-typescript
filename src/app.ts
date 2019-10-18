@@ -1,7 +1,8 @@
 require('dotenv').config();
 import express = require('express');
-import routes from './routes';
 import {healthcheck} from '@fendy3002/express-helper';
+
+import routes from './routes';
 
 const init = async () => {
     let app = express();
